@@ -50,7 +50,6 @@ describe "is_prime" do
   end
 
   it "should return true for prime numbers" do
-    expect(is_prime 1).to be true
     expect(is_prime 3).to be true
     expect(is_prime 5).to be true
     expect(is_prime 7).to be true
