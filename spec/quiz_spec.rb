@@ -68,7 +68,6 @@ describe "is_prime" do
   end
 
   it "should return false for all other numbers" do
-    expect(is_prime 2).to be false
     expect(is_prime 4).to be false
     expect(is_prime 10).to be false
     expect(is_prime 100).to be false
